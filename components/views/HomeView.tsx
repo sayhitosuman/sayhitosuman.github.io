@@ -5,8 +5,8 @@ import { AppContextType } from '../../types';
 
 const HomeView: React.FC<{ app: AppContextType }> = ({ app }) => {
   // Logic to switch images based on theme
-  const lightProfile = "<img src="https://i.ibb.co/mC4NCHf0/45a4e5da-0250-4831-8a7a-297c7ae56cb7.jpg" alt="45a4e5da 0250 4831 8a7a 297c7ae56cb7" border="0">"; 
-  const darkProfile = "<img src="https://i.ibb.co/mC4NCHf0/45a4e5da-0250-4831-8a7a-297c7ae56cb7.jpg" alt="45a4e5da 0250 4831 8a7a 297c7ae56cb7" border="0">";
+  const lightProfile = "docs/assets/unnamed.jpg"; 
+  const darkProfile = "docs/assets/27e508ac-8539-4795-832f-1b139f2baf25.jpg";
   
   // Fallbacks in case files are missing (Visual placeholder matching description)
   const fallbackLight = "https://api.dicebear.com/9.x/notionists/svg?seed=Felix&glassesProbability=100"; 

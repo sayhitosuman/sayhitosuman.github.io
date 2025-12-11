@@ -106,7 +106,7 @@ const ActivityBar: React.FC<ActivityBarProps> = ({ app }) => {
                         className="px-4 py-2 hover:bg-[var(--accent)] hover:text-white cursor-pointer transition-colors"
                         onClick={(e) => { 
                             e.stopPropagation();
-                            window.open('https://youtube.com', '_blank'); 
+                            window.open('https://alsosuman.vercel.app', '_blank'); 
                             setActivePopup(null); 
                         }}
                     >
